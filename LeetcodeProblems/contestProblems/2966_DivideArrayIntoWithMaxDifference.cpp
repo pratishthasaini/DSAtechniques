@@ -1,4 +1,4 @@
-You are given an integer array nums of size n and a positive integer k.
+/*You are given an integer array nums of size n and a positive integer k.
 
 Divide the array into one or more arrays of size 3 satisfying the following conditions:
 
@@ -31,6 +31,7 @@ n is a multiple of 3.
 1 <= k <= 105
 
 code:-
+ */
 class Solution {
 public:
     vector<vector<int>> divideArray(vector<int>& nums, int k) {
